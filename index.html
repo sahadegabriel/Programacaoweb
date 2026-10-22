@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Página Pessoal</title>
 </head>
+
 <body>
 
     <header>
@@ -16,28 +18,29 @@
         <a href="index.html">Início</a>
         <a href="sobre.html">Sobre mim</a>
         <a href="#hobbies">Meus interesses</a>
+        <a href="#contato">Entre em contato</a>
     </nav>
 
     <main>
+
         <section id="apresentacao">
             <h2>Apresentação</h2>
 
             <p>
                 Meu nome é Gabriel e sou estudante do curso
-                técnico de Informática. Trabalho na área industrial.
-                Estou aprendendo a criar 
+                técnico de Informática. Estou aprendendo a criar
                 páginas para a internet utilizando HTML.
             </p>
 
-            <img src="imagens/perfil.jpg"
-                 alt="Foto do meu ambiente profissional"
-                 width="200">
+            <img
+                src="imagens/perfil.jpg"
+                alt="Foto do meu ambiente profissional"
+                width="200"
+            >
         </section>
 
         <section id="hobbies">
             <h2>Meus hobbies e interesses</h2>
-
-            <p>Gosto de atividades como:</p>
 
             <ul>
                 <li>Estudar e aprender coisas novas</li>
@@ -45,6 +48,69 @@
                 <li>Utilizar tecnologia e computadores</li>
             </ul>
         </section>
+
+        <section id="contato">
+            <h2>Entre em contato</h2>
+
+            <p>
+                Preencha o formulário abaixo para deixar
+                uma mensagem.
+            </p>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Formulário de contato</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label><br>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto:</label><br>
+                        <input
+                            type="text"
+                            id="assunto"
+                            name="assunto"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="5"
+                            cols="40"
+                            required
+                        ></textarea>
+                    </p>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+
+                </fieldset>
+
+            </form>
+        </section>
+
     </main>
 
     <footer>
@@ -55,4 +121,5 @@
     </footer>
 
 </body>
+
 </html>
