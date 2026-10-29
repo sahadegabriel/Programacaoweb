@@ -1,3 +1,5 @@
+<img width="947" height="472" alt="captura2-css" src="https://github.com/user-attachments/assets/8c6de45c-c726-43eb-bad4-0099751d6fb3" />
+<img width="956" height="475" alt="captura1-css" src="https://github.com/user-attachments/assets/831de458-96f7-4d9d-a64b-fa033b038b6c" />
 # Minha primeira página Web
 
 Nome: Gabriel Sahade de Souza
